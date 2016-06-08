@@ -55,6 +55,11 @@ p1 {
     color: yellow
 }
 
+p2 {
+    font-size: 40px;
+    color: yellow;
+    
+    }
 
 a:hover {
     text-decoration: none
@@ -89,7 +94,7 @@ header.header {
 }
 
 .navbar-nav > li > a {
-    padding: 7px 0 0;
+    padding: 20px 0 0;
     line-height: 12px;
     text-transform: uppercase;
     color: #333;
@@ -106,7 +111,7 @@ header.header {
 }
 
 .nav > li {
-    padding: 15px 15px;
+    padding: 1px 15px 15px;
 }
 
 .is-sticky .navi {
@@ -275,6 +280,10 @@ header.header {
     overflow: hidden;
 }
 
+.project h {
+    padding-top: 20px;
+}
+
 
 
 .project-item {
@@ -362,7 +371,8 @@ button.close {
     background-color: #Fff;
     color: #272b2f;
     padding-bottom: 1px;
-    padding-top: 30px;
+    padding-top: 0px;
+    
 }
 
 .single-service i {
@@ -392,10 +402,12 @@ button.close {
 
 /*carousel area css*/
 #review {
-    background: url("img/IMG_4464.JPG") no-repeat fixed center center;
+    background: url("img/IMG_4465.JPG") no-repeat fixed center center;
     background-size: cover;
     position: relative;
     margin-bottom: 60px;
+    padding-bottom: 40px;
+    padding-top: 15px;
 }
 
 #review1 {
@@ -404,7 +416,16 @@ button.close {
     position: relative;
     text-align: center;
     text-transform: uppercase;
-    text-rendering:
+
+}
+
+#review2 {
+    background: #b35;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 35px;
+    padding-bottom: 40px;
+    padding-top: 15px;
 }
 
 .carousel-overlay {
@@ -555,12 +576,13 @@ button.close {
 }
 
 .client-section h3 {
-    padding: 60px 0 60px;
+    padding: 6px 0 6px;
 }
 
 .client-logo:hover {
     color: orange;
     }
+
 
 
 
